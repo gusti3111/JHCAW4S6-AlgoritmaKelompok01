@@ -11,8 +11,8 @@ int main(){
 
     //conditions for total bill
     if(playTime <= 4){
-    }
-    if(playTime > 4 && playTime <= 6){
+        totalBill;
+    }else if(playTime > 4 && playTime <= 6){
        double discount = 1 - 0.10;// karna discount 15% dan yang dicari costumer bayar berapa maka  1 - discount
 
          totalDiscount = playTime * billPerHour * discount;
